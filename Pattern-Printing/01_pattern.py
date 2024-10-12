@@ -1,7 +1,10 @@
 
+row = 4
+column = 4
 
-for i in range(4):
-    for j in range(4):
+
+for i in range(row):
+    for j in range(column):
         print("*", end = " ")
     print()
     
